@@ -1,16 +1,11 @@
-from langchain_community.chat_models import ChatOllama
-from langchain_core.prompts import ChatPromptTemplate
-
-from langchain_core.output_parsers import StrOutputParser
-
-### Configs ###
-# Load model configurations from .env file
-# Nice to keep configs in one place to ensure model stays same across files. 
-# Changing model takes a long time for first load
 import os
 from dotenv import load_dotenv
+from langchain_community.chat_models import ChatOllama
+from langchain_core.prompts import ChatPromptTemplate
+from langchain_core.output_parsers import StrOutputParser
 
-env_path = 'C:/Users/groutgauss/Llama Index/env.txt'
+# Load model configurations from .env file
+env_path = 'C:/Users/~/env.txt' #update path to where you saved .env file
 
 load_dotenv(env_path)
 model=os.getenv("MODEL")
