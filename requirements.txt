@@ -1,0 +1,19 @@
+# Main modules
+llama-index #use 1.) pip3 uninstall llama-index 2.) pip3 install llama-index --upgrade --no-cache-dir --force-reinstall
+ollama #https://pypi.org/project/ollama/
+llama-hub
+
+#for Quadrant and Ollama implimentation (sub with whatever vdb or LLM method you choose)
+llama-index-core
+llama-index-llms-core
+llama-index-llms-ollama
+llama-index-vector-stores-qdrant
+
+qdrant-client
+sentence-transformers
+EbookLib
+html2text
+arize-phoenix #great if you want to see how the indexing / embeddings are made
+requests
+pypdf
+python-dotenv
