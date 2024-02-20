@@ -1,8 +1,8 @@
 # Llama Index RAG Application
-A RAG implementation on Llama Index using Quadrant as storage.  Take some pdfs, index/embed them in a vdb, use LLM to inference and generate output.  Pretty nifty.
+A RAG implementation on Llama Index using Quadrant as storage.  Take some pdfs (you can either use the test pdfs include in /data or delete and use your own docs), index/embed them in a vdb, use LLM to inference and generate output.  Pretty nifty.
 
 ## How to use
-- create local path and data subfolder (you can either use the test pdfs or delete and use your own docs)
+- create local path and data subfolder 
 - create virtual env using conda or however you choose
 - install requirements.txt
 - activate Ollama in terminal with "ollama run mistral" or whatever model you pick.  If you're using the new Ollama for Windows then not necessary since it runs in the background (ensure it's active).
