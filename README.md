@@ -1,5 +1,5 @@
 # Llama Index RAG Application
-A fine tuned RAG implementation on Llama Index using Quadrant as storage.  Take some pdfs, index/embed them in a vdb, use LLM to inference and generate output.  Pretty nifty.
+A RAG implementation on Llama Index using Quadrant as storage.  Take some pdfs, index/embed them in a vdb, use LLM to inference and generate output.  Pretty nifty.
 
 ## How to use
 - create local path and data subfolder (you can either use the test pdfs or delete and use your own docs)
