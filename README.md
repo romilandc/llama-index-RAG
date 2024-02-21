@@ -6,7 +6,7 @@ A RAG implementation on Llama Index using Quadrant as storage.  Take some pdfs (
 - create virtual env using conda or however you choose
 - install requirements.txt
 - activate Ollama in terminal with "ollama run mistral" or whatever model you pick.  If you're using the new Ollama for Windows then not necessary since it runs in the background (ensure it's active).
-- open lang_RAG_pdf.py and update lines 42 & 43 with your model of choice
+- open llama_index_RAG.py and update lines 42 & 43 with your model of choice
 - save and run the script
 - observe results similar to:
 
