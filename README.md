@@ -10,4 +10,4 @@ A RAG implementation on Llama Index using Quadrant as storage.  Take some pdfs (
 - save and run the script
 - observe results similar to:
 
-![Image1](https://github.com/romilan24/llama-index-RAG/blob/main/fine_tune_pdfs.JPG)
+![Image1](https://github.com/romilan24/llama-index-RAG/blob/main/RAG_inference_pdfs.JPG)
