@@ -8,6 +8,7 @@ llama-index-core
 llama-index-llms-core
 llama-index-llms-ollama
 llama-index-vector-stores-qdrant
+llama-index-embeddings-huggingface
 
 qdrant-client
 sentence-transformers
